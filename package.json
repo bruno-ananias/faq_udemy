@@ -1,0 +1,28 @@
+{
+  "name": "node_faq_udemy",
+  "version": "1.0.0",
+  "description": "Plataforma de perguntas e respostas usando node, express e EJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruno-ananias/faq_udemy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bruno-ananias/faq_udemy/issues"
+  },
+  "homepage": "https://github.com/bruno-ananias/faq_udemy#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.25.6"
+  }
+}
